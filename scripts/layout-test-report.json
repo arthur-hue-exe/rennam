@@ -1,0 +1,326 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "display": "4",
+    "title": "RENNAM TORADO:",
+    "titleVisible": true,
+    "soundVisible": true,
+    "statusVisible": true,
+    "hud": {
+      "top": 18,
+      "bottom": 162,
+      "left": 340,
+      "right": 1100,
+      "width": 760,
+      "height": 144
+    },
+    "scoreboard": {
+      "top": 18,
+      "bottom": 162,
+      "left": 340,
+      "right": 1100,
+      "width": 760,
+      "height": 144
+    },
+    "player": {
+      "top": 582,
+      "bottom": 694,
+      "left": 685,
+      "right": 755,
+      "width": 69,
+      "height": 113
+    },
+    "block": {
+      "top": 447,
+      "bottom": 510,
+      "left": 689,
+      "right": 752,
+      "width": 63,
+      "height": 63
+    },
+    "button": {
+      "top": 723,
+      "bottom": 842,
+      "left": 505,
+      "right": 935,
+      "width": 430,
+      "height": 118
+    },
+    "hintVisible": true,
+    "overflowX": 0,
+    "overflowY": 0
+  },
+  {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "display": "4",
+    "title": "RENNAM TORADO:",
+    "titleVisible": true,
+    "soundVisible": true,
+    "statusVisible": true,
+    "hud": {
+      "top": 14,
+      "bottom": 152,
+      "left": 260,
+      "right": 1020,
+      "width": 760,
+      "height": 137
+    },
+    "scoreboard": {
+      "top": 14,
+      "bottom": 152,
+      "left": 260,
+      "right": 1020,
+      "width": 760,
+      "height": 137
+    },
+    "player": {
+      "top": 454,
+      "bottom": 544,
+      "left": 612,
+      "right": 668,
+      "width": 55,
+      "height": 90
+    },
+    "block": {
+      "top": 346,
+      "bottom": 396,
+      "left": 615,
+      "right": 665,
+      "width": 50,
+      "height": 50
+    },
+    "button": {
+      "top": 559,
+      "bottom": 667,
+      "left": 425,
+      "right": 855,
+      "width": 430,
+      "height": 108
+    },
+    "hintVisible": true,
+    "overflowX": 0,
+    "overflowY": 0
+  },
+  {
+    "viewport": {
+      "width": 820,
+      "height": 1180
+    },
+    "display": "4",
+    "title": "RENNAM TORADO:",
+    "titleVisible": true,
+    "soundVisible": true,
+    "statusVisible": true,
+    "hud": {
+      "top": 22,
+      "bottom": 168,
+      "left": 33,
+      "right": 787,
+      "width": 754,
+      "height": 146
+    },
+    "scoreboard": {
+      "top": 22,
+      "bottom": 168,
+      "left": 33,
+      "right": 787,
+      "width": 754,
+      "height": 146
+    },
+    "player": {
+      "top": 846,
+      "bottom": 974,
+      "left": 371,
+      "right": 449,
+      "width": 79,
+      "height": 128
+    },
+    "block": {
+      "top": 682,
+      "bottom": 754,
+      "left": 374,
+      "right": 446,
+      "width": 72,
+      "height": 72
+    },
+    "button": {
+      "top": 1007,
+      "bottom": 1119,
+      "left": 213,
+      "right": 607,
+      "width": 394,
+      "height": 112
+    },
+    "hintVisible": true,
+    "overflowX": 0,
+    "overflowY": 0
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "display": "4",
+    "title": "RENNAM TORADO:",
+    "titleVisible": true,
+    "soundVisible": true,
+    "statusVisible": true,
+    "hud": {
+      "top": 17,
+      "bottom": 156,
+      "left": 16,
+      "right": 374,
+      "width": 359,
+      "height": 139
+    },
+    "scoreboard": {
+      "top": 17,
+      "bottom": 156,
+      "left": 16,
+      "right": 374,
+      "width": 359,
+      "height": 139
+    },
+    "player": {
+      "top": 537,
+      "bottom": 638,
+      "left": 164,
+      "right": 226,
+      "width": 62,
+      "height": 101
+    },
+    "block": {
+      "top": 427,
+      "bottom": 469,
+      "left": 174,
+      "right": 216,
+      "width": 42,
+      "height": 42
+    },
+    "button": {
+      "top": 711,
+      "bottom": 792,
+      "left": 80,
+      "right": 310,
+      "width": 230,
+      "height": 81
+    },
+    "hintVisible": true,
+    "overflowX": 0,
+    "overflowY": 0
+  },
+  {
+    "viewport": {
+      "width": 320,
+      "height": 568
+    },
+    "display": "4",
+    "title": "RENNAM TORADO:",
+    "titleVisible": true,
+    "soundVisible": true,
+    "statusVisible": true,
+    "hud": {
+      "top": 6,
+      "bottom": 128,
+      "left": 13,
+      "right": 307,
+      "width": 294,
+      "height": 122
+    },
+    "scoreboard": {
+      "top": 6,
+      "bottom": 128,
+      "left": 13,
+      "right": 307,
+      "width": 294,
+      "height": 122
+    },
+    "player": {
+      "top": 402,
+      "bottom": 464,
+      "left": 141,
+      "right": 179,
+      "width": 38,
+      "height": 62
+    },
+    "block": {
+      "top": 310,
+      "bottom": 348,
+      "left": 141,
+      "right": 179,
+      "width": 38,
+      "height": 38
+    },
+    "button": {
+      "top": 475,
+      "bottom": 535,
+      "left": 45,
+      "right": 275,
+      "width": 230,
+      "height": 60
+    },
+    "hintVisible": true,
+    "overflowX": 0,
+    "overflowY": 0
+  },
+  {
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "display": "4",
+    "title": "RENNAM TORADO:",
+    "titleVisible": true,
+    "soundVisible": true,
+    "statusVisible": false,
+    "hud": {
+      "top": 6,
+      "bottom": 106,
+      "left": 142,
+      "right": 702,
+      "width": 560,
+      "height": 100
+    },
+    "scoreboard": {
+      "top": 6,
+      "bottom": 106,
+      "left": 142,
+      "right": 702,
+      "width": 560,
+      "height": 100
+    },
+    "player": {
+      "top": 248,
+      "bottom": 308,
+      "left": 404,
+      "right": 440,
+      "width": 37,
+      "height": 60
+    },
+    "block": {
+      "top": 162,
+      "bottom": 198,
+      "left": 404,
+      "right": 440,
+      "width": 36,
+      "height": 36
+    },
+    "button": {
+      "top": 331,
+      "bottom": 384,
+      "left": 219,
+      "right": 625,
+      "width": 405,
+      "height": 53
+    },
+    "hintVisible": false,
+    "overflowX": 0,
+    "overflowY": 0
+  }
+]

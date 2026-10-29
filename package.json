@@ -1,14 +1,24 @@
 {
-  "name": "rennam-app",
-  "version": "0.1.0",
+  "name": "rennam-torado",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "assets": "node scripts/generate-sprites.mjs",
+    "db:start": "supabase start",
+    "db:stop": "supabase stop",
+    "db:reset": "supabase db reset",
+    "test:counter": "node scripts/test-counter.mjs",
+    "test:ui": "node scripts/ui-test.mjs",
+    "test:layout": "node scripts/layout-test.mjs",
+    "test:celebration": "node scripts/celebration-test.mjs"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
     "next": "16.4.3",
     "react": "19.3.0",
     "react-dom": "19.3.0"
@@ -20,6 +30,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
+    "supabase": "^2.122.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

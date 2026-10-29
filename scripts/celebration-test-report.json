@@ -1,0 +1,53 @@
+{
+  "at100": {
+    "display": "100",
+    "digits": "100",
+    "bannerTitle": "100 TORADAS!",
+    "bannerKicker": "EXPLOSÃO DE TORADAS",
+    "bannerClass": "milestone milestone-big",
+    "gameClass": "game is-celebrating celebrate-big",
+    "scoreboardFit": 0,
+    "status": "PLACAR GLOBAL · AO VIVO"
+  },
+  "at500": {
+    "display": "500",
+    "digits": "500",
+    "bannerTitle": "500 TORADAS!!!",
+    "bannerKicker": "EXPLOSÃO DE TORADAS",
+    "bannerClass": "milestone milestone-mega",
+    "gameClass": "game is-celebrating celebrate-mega",
+    "scoreboardFit": 0,
+    "status": "PLACAR GLOBAL · AO VIVO"
+  },
+  "atMax": {
+    "display": "999.999.999.999.999.999",
+    "digits": "999999999999999999",
+    "bannerTitle": null,
+    "bannerKicker": null,
+    "bannerClass": null,
+    "gameClass": "game ",
+    "scoreboardFit": 0,
+    "status": "PLACAR GLOBAL · AO VIVO"
+  },
+  "afterWrap": {
+    "display": "0",
+    "digits": "0",
+    "bannerTitle": "PLACAR ZERADO!",
+    "bannerKicker": "LIMITE MÁXIMO",
+    "bannerClass": "milestone milestone-mega",
+    "gameClass": "game is-celebrating celebrate-mega",
+    "scoreboardFit": 0,
+    "status": "PLACAR GLOBAL · AO VIVO"
+  },
+  "column": "numeric(18,0)",
+  "reset": {
+    "display": "0",
+    "digits": "0",
+    "bannerTitle": null,
+    "bannerKicker": null,
+    "bannerClass": null,
+    "gameClass": "game ",
+    "scoreboardFit": 0,
+    "status": "PLACAR GLOBAL · AO VIVO"
+  }
+}

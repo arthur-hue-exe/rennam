@@ -1,0 +1,439 @@
+{
+  "checks": [
+    {
+      "name": "initial state",
+      "detail": "counter 0, no overflow",
+      "ok": true
+    },
+    {
+      "name": "jump collision",
+      "detail": "travel 67px against a 64px gap",
+      "ok": true
+    },
+    {
+      "name": "single click",
+      "detail": "0 → 1",
+      "ok": true
+    },
+    {
+      "name": "keyboard shortcut",
+      "detail": "1 → 2",
+      "ok": true
+    },
+    {
+      "name": "failed click",
+      "detail": "error shown, counter untouched",
+      "ok": true
+    },
+    {
+      "name": "retry",
+      "detail": "2 → 3, no double count",
+      "ok": true
+    },
+    {
+      "name": "realtime",
+      "detail": "second tab 3 → 4",
+      "ok": true
+    },
+    {
+      "name": "persistence",
+      "detail": "reload still shows 4",
+      "ok": true
+    },
+    {
+      "name": "sound mute",
+      "detail": "SOM → MUDO, persisted across reload",
+      "ok": true
+    },
+    {
+      "name": "console",
+      "detail": "no errors",
+      "ok": true
+    }
+  ],
+  "report": {
+    "initial": {
+      "dom": {
+        "display": "0",
+        "live": "Rennam Torado: 0",
+        "status": "PLACAR GLOBAL · AO VIVO",
+        "notice": null,
+        "frame": "/sprites/player-idle.png",
+        "playerTransform": "matrix(1, 0, 0, 1, 0, 0)",
+        "jumpGap": 64,
+        "player": {
+          "top": 507,
+          "bottom": 607,
+          "left": 680,
+          "width": 62,
+          "height": 101
+        },
+        "block": {
+          "top": 386,
+          "bottom": 442,
+          "left": 683,
+          "width": 56,
+          "height": 56
+        },
+        "button": {
+          "top": 636,
+          "bottom": 749,
+          "left": 496,
+          "width": 430,
+          "height": 113
+        },
+        "overflowX": 0,
+        "overflowY": 0,
+        "viewport": {
+          "width": 1422,
+          "height": 804
+        }
+      },
+      "remote": {
+        "value": "0",
+        "revision": "280"
+      }
+    },
+    "midJump": {
+      "display": "1",
+      "live": "Rennam Torado: 1",
+      "status": "PLACAR GLOBAL · AO VIVO",
+      "notice": null,
+      "frame": "/sprites/player-hit.png",
+      "playerTransform": "matrix(1, 0, 0, 1, 0, -67)",
+      "jumpGap": 64,
+      "player": {
+        "top": 507,
+        "bottom": 607,
+        "left": 680,
+        "width": 62,
+        "height": 101
+      },
+      "block": {
+        "top": 386,
+        "bottom": 442,
+        "left": 683,
+        "width": 56,
+        "height": 56
+      },
+      "button": {
+        "top": 636,
+        "bottom": 749,
+        "left": 496,
+        "width": 430,
+        "height": 113
+      },
+      "overflowX": 0,
+      "overflowY": 0,
+      "viewport": {
+        "width": 1422,
+        "height": 804
+      }
+    },
+    "afterClick": {
+      "dom": {
+        "display": "1",
+        "live": "Rennam Torado: 1",
+        "status": "PLACAR GLOBAL · AO VIVO",
+        "notice": null,
+        "frame": "/sprites/player-idle.png",
+        "playerTransform": "matrix(1, 0, 0, 1, 0, 0)",
+        "jumpGap": 64,
+        "player": {
+          "top": 507,
+          "bottom": 607,
+          "left": 680,
+          "width": 62,
+          "height": 101
+        },
+        "block": {
+          "top": 386,
+          "bottom": 442,
+          "left": 683,
+          "width": 56,
+          "height": 56
+        },
+        "button": {
+          "top": 636,
+          "bottom": 749,
+          "left": 496,
+          "width": 430,
+          "height": 113
+        },
+        "overflowX": 0,
+        "overflowY": 0,
+        "viewport": {
+          "width": 1422,
+          "height": 804
+        }
+      },
+      "remote": {
+        "value": "1",
+        "revision": "281"
+      }
+    },
+    "afterKeyboard": {
+      "dom": {
+        "display": "2",
+        "live": "Rennam Torado: 2",
+        "status": "PLACAR GLOBAL · AO VIVO",
+        "notice": null,
+        "frame": "/sprites/player-idle.png",
+        "playerTransform": "matrix(1, 0, 0, 1, 0, 0)",
+        "jumpGap": 64,
+        "player": {
+          "top": 507,
+          "bottom": 607,
+          "left": 680,
+          "width": 62,
+          "height": 101
+        },
+        "block": {
+          "top": 386,
+          "bottom": 442,
+          "left": 683,
+          "width": 56,
+          "height": 56
+        },
+        "button": {
+          "top": 636,
+          "bottom": 749,
+          "left": 496,
+          "width": 430,
+          "height": 113
+        },
+        "overflowX": 0,
+        "overflowY": 0,
+        "viewport": {
+          "width": 1422,
+          "height": 804
+        }
+      },
+      "remote": {
+        "value": "2",
+        "revision": "282"
+      }
+    },
+    "blocked": {
+      "dom": {
+        "display": "2",
+        "live": "Rennam Torado: 2",
+        "status": "PLACAR GLOBAL · AO VIVO",
+        "notice": "O servidor não confirmou o clique. Ele está guardado: tente de novo sem contar duas vezes.",
+        "frame": "/sprites/player-idle.png",
+        "playerTransform": "matrix(1, 0, 0, 1, 0, 0)",
+        "jumpGap": 64,
+        "player": {
+          "top": 507,
+          "bottom": 607,
+          "left": 680,
+          "width": 62,
+          "height": 101
+        },
+        "block": {
+          "top": 386,
+          "bottom": 442,
+          "left": 683,
+          "width": 56,
+          "height": 56
+        },
+        "button": {
+          "top": 636,
+          "bottom": 749,
+          "left": 496,
+          "width": 430,
+          "height": 113
+        },
+        "overflowX": 0,
+        "overflowY": 0,
+        "viewport": {
+          "width": 1422,
+          "height": 804
+        }
+      },
+      "remote": {
+        "value": "2",
+        "revision": "282"
+      }
+    },
+    "retried": {
+      "dom": {
+        "display": "3",
+        "live": "Rennam Torado: 3",
+        "status": "PLACAR GLOBAL · AO VIVO",
+        "notice": null,
+        "frame": "/sprites/player-idle.png",
+        "playerTransform": "matrix(1, 0, 0, 1, 0, 0)",
+        "jumpGap": 64,
+        "player": {
+          "top": 507,
+          "bottom": 607,
+          "left": 680,
+          "width": 62,
+          "height": 101
+        },
+        "block": {
+          "top": 386,
+          "bottom": 442,
+          "left": 683,
+          "width": 56,
+          "height": 56
+        },
+        "button": {
+          "top": 636,
+          "bottom": 749,
+          "left": 496,
+          "width": 430,
+          "height": 113
+        },
+        "overflowX": 0,
+        "overflowY": 0,
+        "viewport": {
+          "width": 1422,
+          "height": 804
+        }
+      },
+      "remote": {
+        "value": "3",
+        "revision": "283"
+      }
+    },
+    "secondBefore": {
+      "display": "3",
+      "live": "Rennam Torado: 3",
+      "status": "PLACAR GLOBAL · AO VIVO",
+      "notice": null,
+      "frame": "/sprites/player-idle.png",
+      "playerTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "jumpGap": 64,
+      "player": {
+        "top": 507,
+        "bottom": 607,
+        "left": 680,
+        "width": 62,
+        "height": 101
+      },
+      "block": {
+        "top": 386,
+        "bottom": 442,
+        "left": 683,
+        "width": 56,
+        "height": 56
+      },
+      "button": {
+        "top": 636,
+        "bottom": 749,
+        "left": 496,
+        "width": 430,
+        "height": 113
+      },
+      "overflowX": 0,
+      "overflowY": 0,
+      "viewport": {
+        "width": 1422,
+        "height": 804
+      }
+    },
+    "secondAfter": {
+      "display": "4",
+      "live": "Rennam Torado: 4",
+      "status": "PLACAR GLOBAL · AO VIVO",
+      "notice": null,
+      "frame": "/sprites/player-idle.png",
+      "playerTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "jumpGap": 64,
+      "player": {
+        "top": 507,
+        "bottom": 607,
+        "left": 680,
+        "width": 62,
+        "height": 101
+      },
+      "block": {
+        "top": 386,
+        "bottom": 442,
+        "left": 683,
+        "width": 56,
+        "height": 56
+      },
+      "button": {
+        "top": 636,
+        "bottom": 749,
+        "left": 496,
+        "width": 430,
+        "height": 113
+      },
+      "overflowX": 0,
+      "overflowY": 0,
+      "viewport": {
+        "width": 1422,
+        "height": 804
+      }
+    },
+    "afterReload": {
+      "dom": {
+        "display": "4",
+        "live": "Rennam Torado: 4",
+        "status": "PLACAR GLOBAL · AO VIVO",
+        "notice": null,
+        "frame": "/sprites/player-idle.png",
+        "playerTransform": "matrix(1, 0, 0, 1, 0, 0)",
+        "jumpGap": 64,
+        "player": {
+          "top": 507,
+          "bottom": 607,
+          "left": 680,
+          "width": 62,
+          "height": 101
+        },
+        "block": {
+          "top": 386,
+          "bottom": 442,
+          "left": 683,
+          "width": 56,
+          "height": 56
+        },
+        "button": {
+          "top": 636,
+          "bottom": 749,
+          "left": 496,
+          "width": 430,
+          "height": 113
+        },
+        "overflowX": 0,
+        "overflowY": 0,
+        "viewport": {
+          "width": 1422,
+          "height": 804
+        }
+      },
+      "remote": {
+        "value": "4",
+        "revision": "284"
+      }
+    },
+    "sound": {
+      "soundBefore": {
+        "pressed": "true",
+        "label": "SOM",
+        "stored": null
+      },
+      "soundToggled": {
+        "pressed": "false",
+        "label": "MUDO",
+        "stored": "off"
+      },
+      "soundPersisted": {
+        "pressed": "false",
+        "label": "MUDO",
+        "stored": "off"
+      },
+      "soundRestored": {
+        "pressed": "true",
+        "label": "SOM",
+        "stored": "on"
+      }
+    },
+    "consoleErrors": []
+  }
+}
